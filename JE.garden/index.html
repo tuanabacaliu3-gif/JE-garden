@@ -1,0 +1,267 @@
+ <!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JE Garden Care</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f4fff4;
+color:#222;
+}
+
+nav{
+background:#0b5d1e;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+height:70px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+url("hero.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero-content img{
+width:150px;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+font-size:22px;
+margin:20px 0;
+}
+
+.btn{
+display:inline-block;
+background:#32cd32;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#0b5d1e;
+margin-bottom:40px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#0b5d1e;
+margin-bottom:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:20px;
+}
+
+.contact{
+background:#0b5d1e;
+color:white;
+padding:60px;
+border-radius:25px;
+text-align:center;
+}
+
+footer{
+background:#063b13;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+
+<img src="viber_image_2026-06-01_21-10-48-916.jpg" class="logo">
+
+<ul>
+<li><a href="#rreth">Rreth Nesh</a></li>
+<li><a href="#sherbime">Shërbimet</a></li>
+<li><a href="#galeri">Galeria</a></li>
+<li><a href="#kontakt">Kontakti</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="viber_image_2026-06-01_21-10-48-916 ">
+
+<img src="viber_image_2026-06-01_22-04-33-149.webp">
+
+<h1>JE Garden Care</h1>
+
+<p>
+Transformojmë kopshtin tuaj në një hapësirë të gjelbër,
+moderne dhe të bukur.
+</p>
+
+<a href="#kontakt" class="btn">
+Na Kontaktoni
+</a>
+
+</div>
+
+</section>
+
+<section class="section" id="rreth">
+
+<h2 class="title">Rreth Nesh</h2>
+
+<p style="text-align:center;font-size:20px;">
+JE Garden Care ofron mirëmbajtje profesionale të
+kopshteve, prerje bari, mbjellje lulesh,
+kujdes për pemët dhe dizajnim të hapësirave të gjelbra.
+</p>
+
+</section>
+
+<section class="section" id="sherbime">
+
+<h2 class="title">Shërbimet Tona</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🌿 Prerja e Barit</h3>
+<p>Mirëmbajtje profesionale e lëndinave.</p>
+</div>
+
+<div class="card">
+<h3>🌳 Kujdesi për Pemët</h3>
+<p>Krasitje dhe mirëmbajtje e pemëve.</p>
+</div>
+
+
+
+<div class="card">
+<h3>🍃 Pastrim Kopshti</h3>
+<p>Pastrimi i hapësirave të gjelbra.</p>
+</div>
+
+
+
+
+
+</section>
+
+<section class="section" id="galeri">
+
+<h2 class="title">Galeria</h2>
+
+<div class="gallery">
+
+<img src="viber_image_2026-06-01_21-10-31-418.jpg">
+<img src="viber_image_2026-06-01_21-10-31-674.jpg">
+<img src="viber_image_2026-06-01_21-10-32-073.jpg">
+<img src="viber_image_2026-06-01_21-34-40-710.jpg">
+<img src="viber_image_2026-06-01_21-35-29-590.jpg">
+<img src="viber_image_2026-06-01_22-05-50-758.jpg">
+
+</div>
+
+</section>
+
+<section class="section" id="kontakt">
+
+<div class="contact">
+
+<h2>Kontakti</h2>
+
+<br>
+
+<p>📞 +383 44 316 334</p>
+<p>📍 PRIZREN</p>
+<p>📷 Instagram: kopshtaria J&E</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 JE Garden Care
+</footer>
+
+</body>
+</html>
